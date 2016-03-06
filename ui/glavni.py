@@ -14,7 +14,7 @@ class Glavni(QMainWindow):
         self.initUI()
             
  
-        '''
+        
         c = Cortex()
         n1 = c.addSoma(2)
         n2 = c.addSoma(2)
@@ -26,7 +26,7 @@ class Glavni(QMainWindow):
         c.tempo();
         
         print n3
-        '''
+        
         self.p = Perceptron([4,6,6,4],1);
         
         inputSet = [ 
